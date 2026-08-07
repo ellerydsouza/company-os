@@ -26,6 +26,7 @@ around it.
 | [onboarding.md](onboarding.md) | A new person's first two weeks |
 | [operating-cadence.md](operating-cadence.md) | The calendar of recurring rituals — weekly to annual |
 | [security.md](security.md) | The security baseline everyone follows |
+| [engineering.md](engineering.md) | Durable engineering conventions; mechanics link to [k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook) |
 
 Pages to add as the company grows (each via RFD): values, compensation
 philosophy (pending [RFD 0005](../rfd/0005/README.md)), remote/office policy,

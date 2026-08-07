@@ -37,6 +37,7 @@ Every playbook (see [`templates/playbook-template.md`](templates/playbook-templa
 | [hiring.md](hiring.md) | A role is opened |
 | [monthly-financial-review.md](monthly-financial-review.md) | First week of each month |
 | [offboarding.md](offboarding.md) | A departure is decided |
+| [new-service-bootstrap.md](new-service-bootstrap.md) | A new deployable service is being built |
 
 *(Add rows as playbooks are written. Likely next: press/comms response,
 support process, RMA & returns for hardware.)*

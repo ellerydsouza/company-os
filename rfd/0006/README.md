@@ -44,6 +44,14 @@ decisions hang on this one.
 4. **What would change our mind** — the observable signals that would trigger
    a superseding RFD rather than a slow drift.
 
+## Evidence on file
+
+- [RFD 0007](../0007/README.md): a working software delivery platform and
+  engineering practice (Go on self-hosted Kubernetes, GitOps, CI with
+  quality gates) already exist and are documented. This weights the software
+  or hybrid path — the software side has infrastructure momentum; a pure
+  hardware path would strand it.
+
 ## Inputs to gather before drafting
 
 - 10–20 problem-discovery conversations with candidate customers, written up.

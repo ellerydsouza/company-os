@@ -36,5 +36,6 @@ RFD, so the process can be changed through the process.
 | [0004](0004/README.md) | Security baseline, offboarding, and vendor register | published |
 | [0005](0005/README.md) | Compensation philosophy | ideation |
 | [0006](0006/README.md) | Business direction — software, physical product, or both | ideation |
+| [0007](0007/README.md) | Engineering platform and practice (adopting k8s-project-playbook) | published |
 
 *(Update this table when merging an RFD.)*

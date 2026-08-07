@@ -44,10 +44,15 @@ these processes, not around them.
 
 ## Current state (update when it changes)
 
-- RFDs 0001–0004 published (process adoption); **0005 (compensation) and
-  0006 (business direction) are in ideation awaiting founder decisions** —
-  several pending processes (sales pipeline, support, roadmap intake)
-  deliberately wait on 0006's outcome.
+- RFDs 0001–0004 and 0007 published (process adoption); **0005
+  (compensation) and 0006 (business direction) are in ideation awaiting
+  founder decisions** — several pending processes (sales pipeline, support,
+  roadmap intake) deliberately wait on 0006's outcome.
+- Engineering mechanics live in the external
+  [k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook)
+  repo (RFD 0007): policy in `handbook/engineering.md` here, mechanics
+  there — never copy its content into this repo, and never put
+  company-specific values (hostnames, topology) into that public repo.
 - The hiring playbook hard-blocks on RFD 0005 reaching published.
 - Git: work on `main` is acceptable while the team is one person;
   RFD branches (`rfd/NNNN`) + PRs become the rule once there's a remote and

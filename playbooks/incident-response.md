@@ -22,6 +22,11 @@ product — a safety issue or field-failure pattern.
 2. **Stabilize before you diagnose.** Prefer the reversible mitigations:
    rollback last deploy, disable the feature flag, fail over, rate-limit.
    Root cause hunting comes after customers stop hurting.
+   **On the GitOps cluster, rollback means revert in git** (revert the
+   tag-bump/manifest commit and let ArgoCD sync) — hand-applied fixes
+   (`kubectl set env`, `kubectl edit`) are reverted by selfHeal within
+   minutes. Runtime admin/gRPC toggles are the only reliable in-the-moment
+   levers; see [handbook/engineering.md](../handbook/engineering.md).
 3. **Communicate at declare + every 30 min** (SEV1) or hourly (SEV2):
    status page / customer channel update — what's affected, what we're doing,
    next update time. Never promise a fix time; promise the next update.
