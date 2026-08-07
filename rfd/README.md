@@ -32,5 +32,6 @@ RFD, so the process can be changed through the process.
 |---|---|---|
 | [0001](0001/README.md) | The RFD process | published |
 | [0002](0002/README.md) | Release management process | published |
+| [0003](0003/README.md) | Operating cadence and first domain processes | published |
 
 *(Update this table when merging an RFD.)*

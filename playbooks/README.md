@@ -34,6 +34,8 @@ Every playbook (see [`templates/playbook-template.md`](templates/playbook-templa
 |---|---|
 | [incident-response.md](incident-response.md) | Production/customer-impacting incident |
 | [customer-onboarding.md](customer-onboarding.md) | New customer signed |
+| [hiring.md](hiring.md) | A role is opened |
+| [monthly-financial-review.md](monthly-financial-review.md) | First week of each month |
 
-*(Add rows as playbooks are written. Likely next: hiring loop, security
-incident, offboarding, press/comms response, RMA & returns for hardware.)*
+*(Add rows as playbooks are written. Likely next: offboarding, security
+incident, press/comms response, RMA & returns for hardware.)*
