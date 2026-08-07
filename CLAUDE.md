@@ -48,11 +48,15 @@ these processes, not around them.
   (compensation) and 0006 (business direction) are in ideation awaiting
   founder decisions** — several pending processes (sales pipeline, support,
   roadmap intake) deliberately wait on 0006's outcome.
-- Engineering mechanics live in the external
-  [k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook)
-  repo (RFD 0007): policy in `handbook/engineering.md` here, mechanics
-  there — never copy its content into this repo, and never put
-  company-specific values (hostnames, topology) into that public repo.
+- Engineering mechanics live outside this repo (RFD 0007), in a two-repo
+  scheme: **`internal-k8s-project-playbook`** (private, canonical, real
+  cluster values; checkout at `~/projects/internal-k8s-project-playbook`)
+  and its sanitized public mirror
+  [k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook).
+  Policy stays in `handbook/engineering.md` here. Never copy their content
+  into this repo; never put real values (hostnames, namespaces, topology)
+  into the public repo **or this repo**; convention changes update both
+  playbook repos in the same change, sanitized outbound.
 - The hiring playbook hard-blocks on RFD 0005 reaching published.
 - Git: work on `main` is acceptable while the team is one person;
   RFD branches (`rfd/NNNN`) + PRs become the rule once there's a remote and

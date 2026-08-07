@@ -66,6 +66,16 @@ weights the software (or hybrid) path.
 incident-response correction, and index updates. Marked `committed` when the
 first product service is bootstrapped through the playbook.
 
+## Addendum (2026-08-07)
+
+An omission at authoring time, corrected without altering the decision: the
+public repo is the *sanitized mirror* of a private canonical playbook
+(`internal-k8s-project-playbook`) that carries the real cluster values and
+some additional content. The adopt-by-link decision stands, now spanning
+both: internal = canonical for internal work; public = shareable mirror;
+convention changes update both in the same change, sanitizing outbound.
+`handbook/engineering.md` documents the scheme.
+
 ## Open questions
 
 - Self-hosted vs managed cloud for *customer-facing production* (uptime,

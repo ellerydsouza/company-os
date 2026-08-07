@@ -2,10 +2,21 @@
 
 The durable engineering conventions — the ones that hold regardless of which
 cluster, or even which language, we're on. Adopted via
-[RFD 0007](../rfd/0007/README.md). Platform mechanics (CI pipeline, GitOps,
-storage, secrets, ingress, networking) live in the
-[k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook)
-reference repo — link there, don't restate here.
+[RFD 0007](../rfd/0007/README.md). Platform mechanics live in a
+**two-repo scheme**:
+
+- **`internal-k8s-project-playbook`** (private; local checkout at
+  `~/projects/internal-k8s-project-playbook`) — the **canonical**
+  playbook with real cluster values. This is what internal work follows.
+- **[k8s-project-playbook](https://github.com/ellerydsouza/k8s-project-playbook)**
+  (public) — the sanitized mirror, placeholders instead of real values,
+  for sharing. It also splits the content differently (separate
+  infrastructure doc); the sync is **convention-level, not line-level**.
+
+**The sync rule** (from the internal repo's own README): when a shared
+convention changes, update both repos in the same change, sanitizing real
+values on the way out. Real hostnames, namespaces, and topology never enter
+the public repo — and never enter *this* repo either.
 
 ## Source of truth
 
@@ -51,6 +62,7 @@ reference repo — link there, don't restate here.
 
 | Topic | Reference |
 |---|---|
-| Bootstrap a new service | [new-service-bootstrap playbook](../playbooks/new-service-bootstrap.md) → [NEW_PROJECT_PLAYBOOK](https://github.com/ellerydsouza/k8s-project-playbook/blob/main/docs/NEW_PROJECT_PLAYBOOK.md) |
-| Platform: CI, GitOps, storage, secrets, ingress, NetworkPolicy, observability | [CLUSTER_INFRASTRUCTURE](https://github.com/ellerydsouza/k8s-project-playbook/blob/main/docs/CLUSTER_INFRASTRUCTURE.md) |
+| Bootstrap a new service (internal work) | [new-service-bootstrap playbook](../playbooks/new-service-bootstrap.md) → `internal-k8s-project-playbook/docs/NEW_PROJECT_PLAYBOOK.md` (canonical, self-contained) |
+| Same, shareable/sanitized | public [NEW_PROJECT_PLAYBOOK](https://github.com/ellerydsouza/k8s-project-playbook/blob/main/docs/NEW_PROJECT_PLAYBOOK.md) |
+| Platform: CI, GitOps, storage, secrets, ingress, NetworkPolicy, observability | public [CLUSTER_INFRASTRUCTURE](https://github.com/ellerydsouza/k8s-project-playbook/blob/main/docs/CLUSTER_INFRASTRUCTURE.md); real values in the internal playbook |
 | Production rollback during an incident | [incident-response playbook](../playbooks/incident-response.md) |
