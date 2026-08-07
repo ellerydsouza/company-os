@@ -33,5 +33,8 @@ RFD, so the process can be changed through the process.
 | [0001](0001/README.md) | The RFD process | published |
 | [0002](0002/README.md) | Release management process | published |
 | [0003](0003/README.md) | Operating cadence and first domain processes | published |
+| [0004](0004/README.md) | Security baseline, offboarding, and vendor register | published |
+| [0005](0005/README.md) | Compensation philosophy | ideation |
+| [0006](0006/README.md) | Business direction — software, physical product, or both | ideation |
 
 *(Update this table when merging an RFD.)*

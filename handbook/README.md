@@ -25,7 +25,8 @@ around it.
 | [communication.md](communication.md) | Channels, norms, and defaults for how we talk |
 | [onboarding.md](onboarding.md) | A new person's first two weeks |
 | [operating-cadence.md](operating-cadence.md) | The calendar of recurring rituals — weekly to annual |
+| [security.md](security.md) | The security baseline everyone follows |
 
 Pages to add as the company grows (each via RFD): values, compensation
-philosophy, remote/office policy, expenses & travel, security policy,
-performance & feedback.
+philosophy (pending [RFD 0005](../rfd/0005/README.md)), remote/office policy,
+expenses & travel, performance & feedback.
