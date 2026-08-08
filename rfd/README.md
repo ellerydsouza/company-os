@@ -38,5 +38,27 @@ RFD, so the process can be changed through the process.
 | [0006](0006/README.md) | Business direction — software, physical product, or both | ideation |
 | [0007](0007/README.md) | Engineering platform and practice (adopting k8s-project-playbook) | published |
 | [0008](0008/README.md) | Engineering onboarding — structural proactivity and the golden path | discussion |
+| [0009](0009/README.md) | Mission, principles, and values | ideation |
+| [0010](0010/README.md) | Materials-based hiring and public job descriptions | ideation |
+| [0011](0011/README.md) | LLM and AI-agent use policy | ideation |
+| [0012](0012/README.md) | Record every meeting | ideation |
 
 *(Update this table when merging an RFD.)*
+
+## Parked candidates (no number reserved yet)
+
+Ideas from the [Oxide public RFD](https://rfd.shared.oxide.computer/) scan
+(2026-08-07) that wait on a trigger; reserve a number when the trigger hits:
+
+- **Focus day** (meeting-free weekday, Oxide RFD 83) — trigger: first hire.
+- **Phases of engineering + "determination"** (Oxide RFDs 5, 113) —
+  trigger: first substantial engineering effort; also a candidate
+  enrichment for `handbook/decision-making.md`.
+- **Partnership as shared values** (Oxide RFD 68) — trigger: RFD 0006
+  chooses hardware, or first strategic supplier/partner.
+- **Open source policy** (Oxide RFD 224: MPL 2.0 default, license tiers,
+  no CLAs) — trigger: RFD 0006 chooses software, or first public repo with
+  contributions.
+- **Pull-based cadence for optional rituals** (Oxide RFD 38's journal-club
+  mechanism: fires only when ≥2 people commit) — trigger: first optional
+  recurring ritual added to the operating cadence.
