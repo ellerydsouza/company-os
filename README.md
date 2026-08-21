@@ -70,3 +70,9 @@ open-source software project respectively).
 - Running a release → copy
   [`releases/templates/release-tracking-issue.md`](releases/templates/release-tracking-issue.md)
 - About to do a risky/rare operation → check [`playbooks/`](playbooks/) first
+
+## License
+
+The contents of this repository are licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — see
+[LICENSE](LICENSE). You may reuse and adapt any of it, with attribution.
