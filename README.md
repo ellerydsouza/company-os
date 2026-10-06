@@ -18,27 +18,24 @@ open-source software project respectively).
 
 ## How the layers fit together
 
-```
-        idea / problem / disagreement
-                    │
-                    ▼
-              ┌───────────┐   discussion on a PR,
-              │    RFD    │   3–5 business days
-              └───────────┘
-                    │  published & committed
-        ┌───────────┼───────────────┐
-        ▼           ▼               ▼
-   handbook     playbook        release
-   (policy,     (repeatable     process
-   values,      procedure)      (cadence,
-   defaults)                    roles)
-        │           │               │
-        └───────────┴───────┬───────┘
-                            ▼
-                       execution
-                            │
-                            ▼
-                 retrospectives → new RFDs
+```mermaid
+flowchart TD
+    idea["idea / problem / disagreement"]
+    rfd["RFD<br/><i>discussion on a PR, 3–5 business days</i>"]
+    subgraph live["where decisions live"]
+        direction LR
+        handbook["Handbook<br/><i>policy, values, defaults</i>"]
+        playbook["Playbook<br/><i>repeatable procedure</i>"]
+        release["Release process<br/><i>cadence, roles</i>"]
+    end
+    exec["Execution"]
+    retro["Retrospectives"]
+
+    idea --> rfd
+    rfd -- "published & committed" --> live
+    live --> exec
+    exec --> retro
+    retro -- "new RFDs" --> rfd
 ```
 
 - An **RFD** is where a decision is *made*. It is a historical record: once
