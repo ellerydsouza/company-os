@@ -42,6 +42,7 @@ RFD, so the process can be changed through the process.
 | [0010](0010/README.md) | Materials-based hiring and public job descriptions | ideation |
 | [0011](0011/README.md) | LLM and AI-agent use policy | ideation |
 | [0012](0012/README.md) | Record every meeting | ideation |
+| [0013](0013/README.md) | Individual weekly updates replace status meetings | prediscussion |
 
 *(Update this table when merging an RFD.)*
 
