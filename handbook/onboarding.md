@@ -25,6 +25,8 @@ because they reveal what these docs failed to explain.
 - [ ] Meet everyone (at current size) / your working circle (later): 30
   minutes each, their view of what's working and what isn't
 - [ ] Do the first task; ship it, however small
+- [ ] Post your first [weekly update](templates/weekly-update.md), however
+  short; the habit starts in week one
 
 ## Week 2 — participation
 

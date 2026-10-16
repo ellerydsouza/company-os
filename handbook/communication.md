@@ -22,6 +22,7 @@
 | Step-by-step procedure | Playbook |
 | Release state | The cycle's tracking issue |
 | Coordination, quick questions | Chat |
+| Individual weekly status | Team channel, one post per person per week ([template](templates/weekly-update.md)) |
 | Customer-visible status | Status page / customer channels (see comms role in [releases](../releases/README.md)) |
 
 ## Response-time expectations
