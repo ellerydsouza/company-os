@@ -3,8 +3,8 @@ rfd: "0013"
 title: Individual weekly updates replace status meetings
 authors:
   - Ellery D'Souza <edsouza99@gmail.com>
-state: prediscussion
-discussion: (PR link once state is discussion or later)
+state: discussion
+discussion: https://github.com/ellerydsouza/company-os/pull/1
 ---
 
 # RFD 0013: Individual weekly updates replace status meetings
