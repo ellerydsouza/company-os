@@ -15,6 +15,7 @@ quarterly retro counts the skips.
 |---|---|---|---|
 | **Business review** (30 min): the 3–5 core metrics, sales pipeline, top risks | CEO | Metrics dashboard, pipeline list | Decisions + action owners noted in chat |
 | **Release scope check** (part of the [release cycle](../releases/README.md)) | Release lead | Cycle tracking issue | Updated tracking issue; at-risk items cut early |
+| **Weekly update** (10 min): shipped, in progress, blocked, next week, with links ([template](templates/weekly-update.md), [RFD 0013](../rfd/0013/README.md)) | Each person | Their own PRs, tickets, reviews | A post in the team channel, same day each week. Replaces the standup as the status mechanism. |
 
 ## Monthly
 
